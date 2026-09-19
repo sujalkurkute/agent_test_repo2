@@ -1,7 +1,10 @@
 import os
 import pandas as pd
 
-def divide(a, b):
+
+def divide(a: int, b: int) -> int:
     return a / b
 
-print(divide(10, 0))
+
+if __name__ == "__main__":
+    print(divide(10, 2))
